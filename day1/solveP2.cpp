@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 {
     vector<int> values;
     string line;
-    ifstream myfile ("input.txt");
+    ifstream myfile ("../../../../day1/input.txt");
     if (myfile.is_open())
     {
         while ( getline (myfile,line) )

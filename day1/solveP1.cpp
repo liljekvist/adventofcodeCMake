@@ -10,7 +10,7 @@ using std::ifstream;
 int main(int argc, char const *argv[])
 {
     string line;
-    ifstream myfile ("input.txt");
+    ifstream myfile ("../../../../day1/input.txt");
     if (myfile.is_open())
     {
         int incCounter = 0;
