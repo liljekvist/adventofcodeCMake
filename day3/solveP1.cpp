@@ -56,8 +56,8 @@ int main()
     else cout << "Unable to open file";
 
     bitset<12> gamma (gammaStr);
-    int res = (gamma.to_ulong() * gamma.flip().to_ulong());
-    cout << res << "\n";
+    //int res = (gamma.to_ulong() * gamma.flip().to_ulong());
+    cout << gamma.to_string() << "\n";
 
     return 0;
 }
