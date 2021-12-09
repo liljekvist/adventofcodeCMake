@@ -32,7 +32,7 @@ bitset<12> solve(char highOrLow, vector<string> stringArray){
             if(count >= ceil(stringArray.size()/2)){
                 vector<string> tmp;
                 for(auto num : stringArray){
-                    if (num[i] == 1)
+                    if (num[i] == '1')
                     {
                         tmp.push_back(num);
                     }
@@ -42,7 +42,7 @@ bitset<12> solve(char highOrLow, vector<string> stringArray){
             else{
                 vector<string> tmp;
                 for(auto num : stringArray){
-                    if (num[i] == 0)
+                    if (num[i] == '0')
                     {
                         tmp.push_back(num);
                     }
@@ -54,7 +54,7 @@ bitset<12> solve(char highOrLow, vector<string> stringArray){
             if(count > floor(stringArray.size()/2)){
                 vector<string> tmp;
                 for(auto num : stringArray){
-                    if (num[i] == 1)
+                    if (num[i] == '1')
                     {
                         tmp.push_back(num);
                     }
@@ -64,7 +64,7 @@ bitset<12> solve(char highOrLow, vector<string> stringArray){
             else{
                 vector<string> tmp;
                 for(auto num : stringArray){
-                    if (num[i] == 0)
+                    if (num[i] == '0')
                     {
                         tmp.push_back(num);
                     }
@@ -87,7 +87,7 @@ bitset<12> solve(char highOrLow, vector<string> stringArray){
 int main()
 {
     vector<string> stringArray; // 
-    ifstream myfile("../day3/input.txt");
+    ifstream myfile("../../../../day3/input.txt");
     string line;
 
     if (myfile.is_open())
@@ -102,7 +102,8 @@ int main()
    
     auto oxygen = solve('1', stringArray);
     auto CO2 = solve('0', stringArray);
-    cout << CO2.to_string() << "\n";
+    int res = (oxygen.to_ulong() * CO2.to_ulong());
+    cout << res << "\n";
 
     return 0;
 }
