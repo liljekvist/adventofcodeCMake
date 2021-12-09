@@ -1,0 +1,14 @@
+/home/liljekvist/Projects/adventofcodeCMake/build/CMakeFiles/edit_cache.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/CMakeFiles/rebuild_cache.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day1/CMakeFiles/day1PT1.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day1/CMakeFiles/day1PT2.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day1/CMakeFiles/edit_cache.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day1/CMakeFiles/rebuild_cache.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day2/CMakeFiles/day2PT1.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day2/CMakeFiles/day2PT2.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day2/CMakeFiles/edit_cache.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day2/CMakeFiles/rebuild_cache.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day3/CMakeFiles/day3PT1.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day3/CMakeFiles/day3PT2.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day3/CMakeFiles/edit_cache.dir
+/home/liljekvist/Projects/adventofcodeCMake/build/day3/CMakeFiles/rebuild_cache.dir

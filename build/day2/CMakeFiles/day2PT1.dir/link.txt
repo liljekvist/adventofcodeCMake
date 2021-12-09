@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/day2PT1.dir/solveP1.cpp.o -o day2PT1 
